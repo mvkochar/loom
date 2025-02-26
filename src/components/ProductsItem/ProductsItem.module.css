@@ -1,0 +1,61 @@
+.products_item {
+    width: 531px;
+    padding: 30px;
+
+    >div:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    >div:last-child {
+        gap: 20px;
+    }
+}
+
+.products_item_category {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 16px;
+    background-color: var(--dark-10);
+    border-radius: 100px;
+    font-size: 18px;
+    color: var(--grey-70);
+}
+
+.products_item_shop {
+    display: block;
+    width: 162px;
+    height: 65px;
+    background: url("/public/images/shop-now.png") no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.products_item_title {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-family: "Roboto Mono", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.products_item_info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Roboto Mono", serif;
+
+    .info_title {
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--grey-50);
+    }
+
+    .info_value {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-80);
+    }
+}

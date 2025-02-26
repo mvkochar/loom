@@ -94,3 +94,205 @@
         } 
     }
 }
+
+.home-trends {
+    margin-top: 100px;
+    padding-top: 80px;
+
+    .page-title {
+        margin-left: 80px;
+    } 
+
+    .page-desc {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+}
+
+.home-trends-box {
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.home-trends-item {
+    width: 531px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    border-top: 2px dashed var(--dark-15);
+    border-right: 2px dashed var(--dark-15);
+
+    .trends-item-title {
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: var(--white);
+    }
+    
+    .trends-item-desc {
+        width: 412px;
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--grey-50);
+    }
+
+    &:nth-child(1) {
+        background: url("/public/images/trends/icon1.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    &:nth-child(2) {
+        background: url("/public/images/trends/icon2.png") no-repeat right;
+        background-position-y: 0;
+    }
+ 
+    &:nth-child(3), &:nth-child(6) {
+        border-right: none;
+    }
+
+    &:nth-child(3) {
+        background: url("/public/images/trends/icon3.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    &:nth-child(4) {
+        background: url("/public/images/trends/icon4.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    &:nth-child(5) {
+        background: url("/public/images/trends/icon5.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    &:nth-child(6) {
+        background: url("/public/images/trends/icon6.png") no-repeat right;
+        background-position-y: 0;
+    }
+}
+
+.home-journey {
+    margin-top: 100px;
+    padding-top: 80px;
+    background: url("/public/images/journey.png") no-repeat right;
+    background-position-y: 0;
+
+    .page-title {
+        margin-left: 80px;
+    }
+
+    .page-desc {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+}
+
+.home-journey-box {
+    margin-top: 80px;
+}
+
+.home-journey-item {
+    width: 389px;
+    padding: 50px;
+    border-top: 2px dashed var(--dark-15);
+    border-right: 2px dashed var(--dark-15);
+
+    .journey-item-num {
+        font-family: "Roboto Mono", serif;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-40);
+    }
+
+    .journey-item-title {
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .journey-item-desc {
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--grey-50);
+    }
+
+    &:last-child {
+        border-right: none;
+    }
+}
+
+.home-latest {
+    margin-top: 100px;
+    padding-top: 80px;
+    background: url('/public/images/latest.png') no-repeat right;
+    background-position-y: 0;
+
+    .page-title {
+        margin-left: 80px;
+    }
+
+    .page-desc {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+}
+
+.home-latest-tabs {
+    display: block;
+    margin-top: 50px;
+    margin-left: 80px;
+    gap: 14px;
+
+    .tabs-btn {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background-color: transparent;
+        border: 1px dashed var(--dark-20);
+        border-radius: 12px;
+        cursor: pointer;
+        font-family: "Roboto Mono", serif;
+        font-size: 18px;
+        color: var(--grey-70);
+
+        &:nth-child(1) {
+            width: 81px;
+        }
+
+        &:nth-child(2) {
+            width: 92px;
+        }
+
+        &:nth-child(3) {
+            width: 125px;
+        }
+
+        &:nth-child(4) {
+            width: 92px;
+        }
+    }
+
+    .tabs-btn__active {
+        background-color: var(--brown-70);
+        border-color: var(--brown-70);
+        color: var(--dark-06);
+    }
+}
+
+.home-latest-box {
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+    >div {
+        border-top: 2px dashed var(--dark-15);
+        border-right: 2px dashed var(--dark-15);
+    }
+
+    >div:nth-child(3), >div:nth-child(6) {
+        border-right: none;
+    }
+}

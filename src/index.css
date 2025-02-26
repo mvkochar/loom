@@ -10,7 +10,9 @@
   --grey-40: #676665;
   --grey-50: #81807E;
   --grey-70: #B3B3B2;
+  --grey-80: #CCCCCC;
   --brown-60: #AE9B84;
+  --brown-70: #C2B4A3;
 }
 
 * {
@@ -79,7 +81,7 @@ body {
 }
 
 .page-bl-wr {
-  border: 2px dotted var(--dark-15);
+  border: 2px dashed var(--dark-15);
   border-radius: 20px;
 }
 
