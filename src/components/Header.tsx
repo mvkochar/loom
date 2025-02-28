@@ -13,7 +13,7 @@ const Header = () => {
         <div><img src="/images/logo.svg" alt="Logo" /></div>
         <div className="header-actions d-f align-center">
             <button className='header-bag'><img src="/images/bag.png" alt="bag" /></button>
-            <a href="" className="header-contact">Contact</a>
+            <Link to="/contact" className="header-contact">Contact</Link>
         </div>
     </header>
   )

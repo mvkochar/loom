@@ -1,0 +1,125 @@
+.contact-main {
+    margin-top: 100px;
+    background: url("/public/images/contact-main-bg.png") no-repeat right;
+    background-position-y: 0;
+}
+
+.contact-main-info {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    border-bottom: 2px dashed var(--dark-15);
+
+    .page-desc {
+        margin-top: 30px;
+    }
+}
+
+.contact-bl-title {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.contact-main .contact-bl-title {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.contact-main-box {
+    margin-top: 50px;
+
+    >div {
+        border-top: 2px dashed var(--dark-15);
+        border-right: 2px dashed var(--dark-15);
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+}
+
+.contact-main-item {
+    width: 33.33%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    
+    &:nth-child(1) {
+        background: url("/public/images/contact/icon1.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    &:nth-child(2) {
+        background: url("/public/images/contact/icon2.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    &:nth-child(3) {
+        background: url("/public/images/contact/icon3.png") no-repeat right;
+        background-position-y: 0;
+    }
+
+    .item-title {
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .item-link {
+        display: block;
+        width: 412px;
+        margin: 16px auto 0;
+        padding-top: 18px;
+        padding-bottom: 24px;
+        background: url("/public/images/contact/contact-bg.png") no-repeat;
+        font-size: 18px;
+        color: var(--white);
+    }
+}
+
+.contact-return {
+    margin-top: 100px;
+}
+
+.contact-return-info {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact-return-box {
+    margin-top: 50px;
+
+    >div {
+        border-top: 2px dashed var(--dark-15);
+        border-right: 2px dashed var(--dark-15);
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+}
+
+.contact-return-item {
+    width: 33.33%;
+    padding: 40px;
+    gap: 20px;
+
+    .return-item-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .return-item-desc {
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--grey-50);
+    }
+}

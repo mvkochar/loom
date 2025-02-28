@@ -1,17 +1,21 @@
 import { Route, Routes } from "react-router-dom"
-import { Home, Products } from "../pages"
+import { Contact, Home, Products } from "../pages"
 
 const Main = () => {
   return (
     <Routes>
-        <Route
-            path="/"
-            element={<Home/>}
-        />
-        <Route
-          path="products"
-          element={<Products/>}
-        />
+      <Route
+        path="/"
+        element={<Home />}
+      />
+      <Route
+        path="products"
+        element={<Products />}
+      />
+      <Route
+        path="contact"
+        element={<Contact />}
+      />
     </Routes>
   )
 }
