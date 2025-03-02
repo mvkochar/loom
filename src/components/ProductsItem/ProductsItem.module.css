@@ -26,8 +26,6 @@
     width: 162px;
     height: 65px;
     background: url("/public/images/shop-now.png") no-repeat;
-    border: none;
-    cursor: pointer;
 }
 
 .products_item_title {

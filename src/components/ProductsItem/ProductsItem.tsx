@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import classes from './ProductsItem.module.css'
 
 type ProductsItemProps = {
@@ -15,7 +16,7 @@ const ProductsItem = ({id, image, category, title, fit, price}:ProductsItemProps
             <div><img src={image} alt={`product${id}`} /></div>
             <div className='d-f jc-sb align-center'>
                 <div className={classes.products_item_category}>{category}</div>
-                <button className={classes.products_item_shop}></button>
+                <Link to={title === "Elegant Evening Gown" ? '/products-open' : ''} className={classes.products_item_shop}></Link>
             </div>
             <h3 className={classes.products_item_title}>{title}</h3>
             <div className="d-f align-center">
