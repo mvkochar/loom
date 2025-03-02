@@ -105,11 +105,11 @@ const ProductsOpen = () => {
                         </div>
                     </div>
                 </div>
-                <Testimonial />
-                <Faq />
-                <Wardrobe />
-                <Features />
             </main>
+            <Testimonial />
+            <Faq />
+            <Wardrobe />
+            <Features />
         </>
     )
 }
